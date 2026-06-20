@@ -19,7 +19,7 @@ export default function Hero() {
     <section
       ref={containerRef}
       id="hero"
-      className="relative min-h-screen w-full overflow-hidden flex items-center justify-center bg-zinc-950 text-white py-20 px-6"
+      className="relative min-h-screen w-full overflow-hidden flex items-center justify-center bg-zinc-950 text-white py-20 px-4 sm:px-6"
     >
       {/* Background Parallax Grid & Glow */}
       <motion.div
@@ -33,7 +33,7 @@ export default function Hero() {
       {/* Centered Typography Content */}
       <motion.div
         style={{ y: yText, opacity: opacityContent }}
-        className="relative z-10 w-full max-w-5xl mx-auto text-center px-4"
+        className="relative z-10 w-full max-w-5xl mx-auto text-center px-2 sm:px-4"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
@@ -47,12 +47,12 @@ export default function Hero() {
           Halo, Saya Ahmad Farid
         </motion.p>
 
-        <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl mx-auto max-w-4xl font-bold tracking-tight mb-8 leading-tight">
+        <h1 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl mx-auto max-w-4xl font-bold tracking-tight mb-8 leading-tight">
           WELCOME TO MY{' '}
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400 px-2">
             PORTOFOLIO AS
           </span>
-          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400 whitespace-nowrap px-4">
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400 sm:whitespace-nowrap px-4">
             FRONT END DEVELOPER
           </span>
         </h1>

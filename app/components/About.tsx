@@ -51,7 +51,7 @@ export default function About() {
                 Saya adalah lulusan <strong>SMK Wikrama 1 Garut</strong> jurusan <strong>Pengembangan Perangkat Lunak dan Gim (PPLG)</strong> yang dinamis, disiplin, dan siap kerja.
               </p>
               <p>
-                Sebagai pengembang web dengan spesialisasi di bidang <strong>Front-End</strong> dan ketertarikan kuat pada arsitektur <strong>Full-Stack</strong>, saya berkomitmen untuk menulis kode yang bersih, efisien, dan mudah dirawat di setiap proyek yang saya bangun.
+                Sebagai pengembang web dengan spesialisasi di bidang <strong>Full-Stack Developer</strong> dengan keahlian lebih unggul di bidang <strong>Front-End Developer</strong>, saya berkomitmen untuk menulis kode yang bersih, efisien, dan mudah dirawat di setiap proyek yang saya bangun.
               </p>
             </div>
 
