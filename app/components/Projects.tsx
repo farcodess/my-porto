@@ -110,7 +110,7 @@ export default function Projects() {
       <div className="max-w-5xl mx-auto">
         <div className="mb-12">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-zinc-100">
-            Karya Pilihan
+              Project
           </h2>
           <div className="h-1 w-12 bg-blue-500 mt-4 rounded" />
         </div>
